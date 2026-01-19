@@ -1,4 +1,10 @@
 ---
+- name: Install podman-plugins package
+  ansible.builtin.package:
+    name: podman-plugins
+    state: present
+  when: ansible_facts['distribution_major_version'] == '9'
+
 - name: Install System Packages dependencies
   ansible.builtin.package:
     name: "{{ tpa_single_node_system_packages }}"
