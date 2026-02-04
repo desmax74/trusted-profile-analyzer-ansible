@@ -5,9 +5,17 @@ Bug fix Release
 
 ### Bugfixes
 - TC-2717 500 error when searching for purl using /analysis/latest/component/<value> endpoint
+- TC-2985 Scan SBOM Report Failed screen UX mistmatch cod Client side validation
+- TC-3037 CBOM: Cannot read properties of undefined (reading uui) erorr on SBOM details page
+- TC-3073 Missing result in latest returned by non-latest endpoint
+- TC-3170 Query latest (and non latest) endpoints omits "anchestors"
 - TC-3201 Github CVE Importer error - data did not match any variant of untagged enum
+- TC-3212 Slow performance of analysis endpoints
 - TC-3214 Improve source_document deletes
 - TC-3234 Concurrent upload: refactoring
+- TC-3278 Latest endpoint only returning one result where non-latest returns many
+- TC-3286 q processing mismatch for in-memory vs DB for PURLS of SBOMs
+- TC 3432 Metrics not matching the right path for /reccomend and /analyze
 
 ## [2.2.0] - 2025-11-25
 
