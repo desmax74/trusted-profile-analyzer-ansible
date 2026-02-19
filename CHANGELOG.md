@@ -1,10 +1,11 @@
-## [2.2.1] - 2025-02-24
+## [2.2.1] - 2025-02-19
 
 ### Release Summary
 Bug fix Release
 
 ### Bugfixes
 - TC-2717 500 error when searching for purl using /analysis/latest/component/<value> endpoint
+- TC-2848 After an SBOM is deleted, there are errors displayed in the Dashboar
 - TC-2985 Scan SBOM Report Failed screen UX mistmatch cod Client side validation
 - TC-3037 CBOM: Cannot read properties of undefined (reading uui) erorr on SBOM details page
 - TC-3073 Missing result in latest returned by non-latest endpoint
