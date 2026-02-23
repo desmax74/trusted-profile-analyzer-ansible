@@ -1,7 +1,7 @@
 - name: Trustification
   hosts: trustification
   vars:
-    tpa_single_node_trustification_image: registry.redhat.io/rhtpa/rhtpa-trustification-service-rhel9:c5f4337ab06995d396f3b15a0289765f352929d8 # noqa yaml[line-length]
+    tpa_single_node_trustification_image: registry.redhat.io/rhtpa/rhtpa-trustification-service-rhel9:bbdbc8740df9aac23d8d18f2f820b94338f8d47c # noqa yaml[line-length]
   vars_files:
     - vars/main.yml
   tasks:
