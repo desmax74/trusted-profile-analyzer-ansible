@@ -1,3 +1,10 @@
+## [2.2.2] - 2025-02-25
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+- TC-3624 Can't find some components in latest analysis endpoint
+
 ## [2.2.1] - 2025-02-19
 
 ### Release Summary
