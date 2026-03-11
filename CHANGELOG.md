@@ -1,11 +1,22 @@
-## [2.2.2] - 2025-02-25
+## [2.2.3] - 2026-03-16
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+- TC-3742 Slow TPA responses
+- TC-3745 RHTPA UI - re-executes endpoint that fails
+
+### Minor Changes
+- TC-3751	Identify Red Hat SBOMs using case insensitive Organization
+
+## [2.2.2] - 2026-02-25
 
 ### Release Summary
 Bug fix Release
 ### Bugfixes
 - TC-3624 Can't find some components in latest analysis endpoint
 
-## [2.2.1] - 2025-02-19
+## [2.2.1] - 2026-02-19
 
 ### Release Summary
 Bug fix Release
@@ -90,7 +101,7 @@ Bug Fix Release
 Bug Fix Release
 
 ### Minor Changes
--TC-2488 Support custom trust anchors for S3
+- TC-2488 Support custom trust anchors for S3
 
 ### Bugfixes
 - TC-2441 Deleting a document leads to a stale broken data model
