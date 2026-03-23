@@ -1,10 +1,11 @@
-## [2.2.3] - 2026-03-16
+## [2.2.3] - 2026-03-31
 
 ### Release Summary
 Bug fix Release
 ### Bugfixes
 - TC-3742 Slow TPA responses
 - TC-3745 RHTPA UI - re-executes endpoint that fails
+- TC-3762 UIScopes field for OIDC
 
 ### Minor Changes
 - TC-3751	Identify Red Hat SBOMs using case insensitive Organization
