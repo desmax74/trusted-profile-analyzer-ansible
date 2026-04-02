@@ -1,3 +1,10 @@
+## [2.2.4] - 2026-04-15
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+- TC-3623 OIDC userinfo call fails for Azure Entra as OIDC
+
 ## [2.2.3] - 2026-03-31
 
 ### Release Summary
