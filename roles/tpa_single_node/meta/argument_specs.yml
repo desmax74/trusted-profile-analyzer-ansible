@@ -121,6 +121,18 @@ argument_specs:
         type: "str"
         required: false
         version_added: "2.0.0"
+      tpa_single_node_oidc_user_info:
+        description: "Value for OIDC_USER_INFO environment variable. Readed from TPA_OIDC_USER_INFO env var"
+        type: "str"
+        required: false
+        version_added: "2.2.4"
+        default: "true"
+      tpa_single_node_oidc_ui_scope:
+        description: "Optional value for UI_SCOPE environment variable. Readed from TPA_OIDC_UI_SCOPE env var"
+        type: "str"
+        required: false
+        version_added: "2.2.4"
+        default: ""
       tpa_single_node_aws_cognito_domain:
         description: "Readed from TPA_OIDC_COGNITO_DOMAIN env var"
         type: "str"

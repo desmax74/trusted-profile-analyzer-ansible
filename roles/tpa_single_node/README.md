@@ -39,7 +39,8 @@ Deploy the [RHTPA](https://docs.redhat.com/en/documentation/red_hat_trusted_prof
 | tpa_single_node_oidc_client_id | Readed from TPA_OIDC_CLIENT_ID env var | str |  |
 | tpa_single_node_oidc_client_secret | Readed from TPA_OIDC_CLIENT_SECRET env var | str |  |
 | tpa_single_node_oidc_tls_insecure | Readed from TPA_OIDC_TLS_INSECURE env var | str |  |
-| tpa_single_node_ui_scopes |Custom OIDC scopes for UI frontend client. Read from TPA_UI_SCOPES env var. Sets UI_SCOPES environment variable in server deployment. | str |  |
+| tpa_single_node_oidc_user_info | Value for OIDC_USER_INFO environment variable. Readed from TPA_OIDC_USER_INFO env var | str |  `true`  |
+| tpa_single_node_oidc_ui_scope | Optional value for UI_SCOPE environment variable. Readed from TPA_OIDC_UI_SCOPE env var | str |  |
 | tpa_single_node_aws_cognito_domain | Readed from TPA_OIDC_COGNITO_DOMAIN env var | str |  |
 | tpa_single_node_storage_access_key | Read from 'TPA_STORAGE_ACCESS_KEY' env var | str |  |
 | tpa_single_node_storage_secret_key | Read from 'TPA_STORAGE_SECRET_KEY' env var | str |  |
