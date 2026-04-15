@@ -139,8 +139,8 @@ spec:
                 secretKeyRef:
                   name: oidc_secret
                   key: front_end
-            - name: OIDC_USER_INFO
-              value: "{{ tpa_single_node_oidc_user_info }}"
+            - name: UI_LOAD_USER
+              value: "{{ tpa_single_node_oidc_ui_load_user }}"
 {% if tpa_single_node_oidc_ui_scope != '' %}
             - name: UI_SCOPE
               value: "{{ tpa_single_node_oidc_ui_scope }}"

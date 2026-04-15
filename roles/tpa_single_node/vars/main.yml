@@ -35,7 +35,7 @@ tpa_single_node_oidc_frontend_id: "{{ lookup('env', 'TPA_OIDC_FRONTEND_ID') | de
 tpa_single_node_oidc_client_id: "{{ lookup('env', 'TPA_OIDC_CLIENT_ID') | default('None', true) }}"
 tpa_single_node_oidc_client_secret: "{{ lookup('env', 'TPA_OIDC_CLIENT_SECRET') | default('None', true) }}"
 tpa_single_node_oidc_tls_insecure: "{{ lookup('env', 'TPA_OIDC_TLS_INSECURE') | default('false', true) }}"
-tpa_single_node_oidc_user_info: "{{ lookup('env', 'TPA_OIDC_USER_INFO') | default('true', true) }}"
+tpa_single_node_oidc_ui_load_user: "{{ lookup('env', 'TPA_OIDC_UI_LOAD_USER') | default('true', true) }}"
 tpa_single_node_oidc_ui_scope: "{{ lookup('env', 'TPA_OIDC_UI_SCOPE') | default('', true) }}"
 
 ## AWS OIDC fields
