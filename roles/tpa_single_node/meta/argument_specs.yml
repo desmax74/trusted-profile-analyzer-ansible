@@ -122,7 +122,7 @@ argument_specs:
         required: false
         version_added: "2.0.0"
       tpa_single_node_oidc_ui_load_user:
-        description: "Value for OIDC_UI_LOAD_USER environment variable. Readed from TPA_OIDC_UI_LOAD_USER env var"
+        description: "Value for UI_LOAD_USER environment variable. Readed from TPA_OIDC_UI_LOAD_USER env var"
         type: "str"
         required: false
         version_added: "2.2.4"
