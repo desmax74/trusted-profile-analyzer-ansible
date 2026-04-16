@@ -140,7 +140,7 @@ spec:
                   name: oidc_secret
                   key: front_end
             - name: UI_LOAD_USER
-              value: "{{ tpa_single_node_oidc_ui_load_user }}"
+              value: "{{ tpa_single_node_oidc_ui_load_user | lower }}"
 {% if tpa_single_node_oidc_ui_scope != '' %}
             - name: UI_SCOPE
               value: "{{ tpa_single_node_oidc_ui_scope }}"
