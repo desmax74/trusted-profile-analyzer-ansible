@@ -1,3 +1,9 @@
+## [2.2.5] - 2026-06-xx
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+
 ## [2.2.4] - 2026-04-20
 
 ### Release Summary
