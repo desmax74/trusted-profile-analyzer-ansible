@@ -3,6 +3,9 @@
 ### Release Summary
 Bug fix Release
 ### Bugfixes
+- TC-4542 Improve behaviour of cache then it's under memory pressure
+### Minor Changes
+- TC-4162 Create a read only/kill switch for TPA
 
 ## [2.2.4] - 2026-04-20
 
