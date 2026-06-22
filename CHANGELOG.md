@@ -1,4 +1,4 @@
-## [2.2.5] - 2026-06-xx
+## [2.2.5] - 2026-06-25
 
 ### Release Summary
 Bug fix Release
