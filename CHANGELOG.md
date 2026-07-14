@@ -1,3 +1,10 @@
+## [2.2.6] - 2026-07-22
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+- TC-5163 Git-based importers (CVE, OSV) ignore proxy configuration
+
 ## [2.2.5] - 2026-06-25
 
 ### Release Summary
