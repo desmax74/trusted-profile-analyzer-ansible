@@ -226,3 +226,18 @@ argument_specs:
         description: "Compression logic for storage "
         type: "str"
         version_added: "2.0.0"
+      tpa_single_node_http_proxy:
+        description: "HTTP proxy URL for the importer container. Read from TPA_HTTP_PROXY env var. Sets HTTP_PROXY environment variable."
+        type: "str"
+        required: false
+        version_added: "2.2.6"
+      tpa_single_node_https_proxy:
+        description: "HTTPS proxy URL for the importer container. Read from TPA_HTTPS_PROXY env var. Sets HTTPS_PROXY environment variable."
+        type: "str"
+        required: false
+        version_added: "2.2.6"
+      tpa_single_node_no_proxy:
+        description: "Comma-separated list of hosts to bypass the proxy. Read from TPA_NO_PROXY env var. Sets NO_PROXY environment variable."
+        type: "str"
+        required: false
+        version_added: "2.2.6"
