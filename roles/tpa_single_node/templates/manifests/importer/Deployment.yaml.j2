@@ -129,6 +129,24 @@ spec:
             - name: TRACING
               value: "enabled"
 {% endif %}
+{% if tpa_single_node_http_proxy != 'None' %}
+            - name: HTTP_PROXY
+              value: "{{ tpa_single_node_http_proxy }}"
+            - name: http_proxy
+              value: "{{ tpa_single_node_http_proxy }}"
+{% endif %}
+{% if tpa_single_node_https_proxy != 'None' %}
+            - name: HTTPS_PROXY
+              value: "{{ tpa_single_node_https_proxy }}"
+            - name: https_proxy
+              value: "{{ tpa_single_node_https_proxy }}"
+{% endif %}
+{% if tpa_single_node_no_proxy != 'None' %}
+            - name: NO_PROXY
+              value: "{{ tpa_single_node_no_proxy }}"
+            - name: no_proxy
+              value: "{{ tpa_single_node_no_proxy }}"
+{% endif %}
           ports:
             - containerPort: 9010
               protocol: TCP

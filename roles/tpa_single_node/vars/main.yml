@@ -78,6 +78,11 @@ tpa_single_node_server_req_limit: "{{ lookup('env', 'TPA_SERVER_REQ_LIMIT') | de
 tpa_single_node_server_json_limit: "{{ lookup('env', 'TPA_SERVER_JSON_LIMIT') | default('None', true) }}"
 tpa_single_node_upload_limit: "{{ lookup('env', 'TPA_SERVER_UPLOAD_LIMIT') | default('None', true) }}"
 
+# Proxy
+tpa_single_node_http_proxy: "{{ lookup('env', 'TPA_HTTP_PROXY') | default('None', true) }}"
+tpa_single_node_https_proxy: "{{ lookup('env', 'TPA_HTTPS_PROXY') | default('None', true) }}"
+tpa_single_node_no_proxy: "{{ lookup('env', 'TPA_NO_PROXY') | default('None', true) }}"
+
 # Log Level
 tpa_single_node_log_filter: info
 
