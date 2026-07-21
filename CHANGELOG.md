@@ -1,3 +1,8 @@
+## [3.0.0] - 2026-xx-22
+
+### Release Summary
+### Bugfixes
+
 ## [2.2.6] - 2026-07-22
 
 ### Release Summary
