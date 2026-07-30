@@ -17,6 +17,9 @@ The RHTPA Ansible collection deploys the following RHTPA components:
 
 - [Trustify](https://github.com/trustification/trustify)
 
+## Maintained by
+Maintained by Red Hat Trusted  Profile Analyzer team
+
 ## Minimum hardware requirements
 
 * 24 vCPU
@@ -151,7 +154,7 @@ Support tickets for RedHat Trusted Profile Analyzer can be opened at https://acc
 
 ## Release notes and Roadmap
 
-You can read the latest release notes [here](https://docs.redhat.com/en/documentation/red_hat_trusted_profile_analyzer/2.0/html/release_notes/index).
+You can read the latest release notes [here](https://docs.redhat.com/en/documentation/red_hat_trusted_profile_analyzer/3.0/html/release_notes/index).
 
 ## Related Information
 
@@ -162,6 +165,9 @@ You can find more information about Red Hat Trusted Profile Analyzer [here](http
 Any and all feedback is welcome.
 Submit an [Issue](https://github.com/trustification/trustify-ansible/issues) or [Pull Request](https://github.com/trustification/trustify-ansible/pulls) as needed.
 
+## Open a issue
+You can open a issue here: https://github.com/trustification/trusted-profile-analyzer-ansible/issues
+
 ## License Information
 
-You can find license information within the [LICENSE](https://github.com/trustification/trustification-ansible/blob/main/LICENSE) file.
+You can find license information within the [LICENSE](https://github.com/trustification/trusted-profile-analyzer-ansible/blob/release/3.y.z/LICENSE) file.
