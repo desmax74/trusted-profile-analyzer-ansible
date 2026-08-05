@@ -8,7 +8,7 @@ authors:
   - Max Dessì <mdessi@redhat.com>
   - Gilles Dubreuil <gdubreui@redhat.com>
   - Rajan Ravi <rravi@redhat.com>
-description: Install and configure RHTPA V2, a downstream redistribution of the Trustification project.
+description: Install and configure RHTPA V3, a downstream redistribution of the Trustification project.
 license_file: LICENSE
 tags: [rhtpa, tpa, trusted, profile, analyzer, security, application, tools]
 # NOTE: when updating, also update dependencies in requirements.yml
