@@ -1,7 +1,23 @@
-## [3.0.0] - 2026-xx-22
+## [3.0.0] - 2026-07-23
 
 ### Release Summary
+First deprecated version
+
 ### Bugfixes
+- TC-2402 UX quirks related to filtering by date
+- TC-2422 Changing the "From" field of the calendar deletes the "To" field completely
+- TC-2520 CSAF Advisories with a CVSS vector containing an Environment or Temporal score fail to upload
+- TC-3051 UI: SBOM Details - Packages Tab - Long licenses occupy too much space
+- TC-3143 Vulnerability score accidentaly picked from CVE instead of GHSA
+- TC-3212 Slow performance of analysis endpoints
+- TC-3248 Upload advisory button on Search page
+- TC-3265 "client_id is not present" when logout
+- TC-3268 Selection of a single SBOM on the Dashboard page causes all 4 SBOMs to reload
+- TC-3294 Opening link for Packager or SBOMs related to Licenses in new window ignores the filter
+- TC-3370 RHTPA - UI - Page title does not change based on viewed page
+- TC-3742 Slow TPA responses
+- TC-4734 CVSSv4 ProviderUrgency (U) metric fails to parse valid values
+- TC-5163 Git-based importers (CVE, OSV) ignore proxy configuration due to missing ProxyOptions in libgit2 FetchOptions
 
 ## [2.2.6] - 2026-07-22
 
