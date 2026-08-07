@@ -1,4 +1,10 @@
-## [2.2.6] - 2026-07-22
+## [2.2.7] - 2026-08-13
+
+### Release Summary
+Bug fix Release
+### Bugfixes
+
+## [2.2.7] - 2026-07-22
 
 ### Release Summary
 Bug fix Release
