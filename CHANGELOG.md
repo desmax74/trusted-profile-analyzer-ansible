@@ -1,10 +1,15 @@
-## [2.2.7] - 2026-08-13
+## [2.2.7] - 2026-08-27
 
 ### Release Summary
 Bug fix Release
 ### Bugfixes
+- TC-5630 SBOM vulnerability count mismatch: CPE-only nodes without a PURL dropped
+- TC-5170 Trustify returns vulnerabilities for SBOM sub-components instead of queried PURL
+- TC-5171 Trustify returns purl_statuses with RPM version ranges / RHEL CPE for non-RPM
+- TC-5626 Use calculated_full_score() for CVSS v4.0 to include Exploit Maturity threat
+- TC-5724 Fix brace-expansion ReDoS in trustify-ui (CVE-2026-69152)
 
-## [2.2.7] - 2026-07-22
+## [2.2.6] - 2026-07-22
 
 ### Release Summary
 Bug fix Release
