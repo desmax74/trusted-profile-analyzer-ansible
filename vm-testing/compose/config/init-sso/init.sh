@@ -25,11 +25,11 @@ echo "Keycloak ready"
 
 # create realm
 REALM_OPTS=()
-REALM_OPTS+=(-s enabled=true)
+REALM_OPTS+=(-s "enabled=true")
 REALM_OPTS+=(-s "displayName=Trusted Content")
-REALM_OPTS+=(-s registrationAllowed=true)
-REALM_OPTS+=(-s resetPasswordAllowed=true)
-REALM_OPTS+=(-s loginWithEmailAllowed=false)
+REALM_OPTS+=(-s "registrationAllowed=true")
+REALM_OPTS+=(-s "resetPasswordAllowed=true")
+REALM_OPTS+=(-s "loginWithEmailAllowed=false")
 
 # if Keycloak has an internal name, set the external name here
 if [[ -n "$SSO_FRONTEND_URL" ]]; then
