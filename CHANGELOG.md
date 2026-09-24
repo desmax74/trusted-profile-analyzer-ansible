@@ -1,3 +1,10 @@
+## [3.1.1] - 2026-09-30
+
+### Release Summary
+Third deprecated version
+
+### Bugfixes
+
 ## [3.1.0] - 2026-08-13
 
 ### Release Summary
