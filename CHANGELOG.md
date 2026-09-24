@@ -1,7 +1,6 @@
 ## [3.1.1] - 2026-09-30
 
 ### Release Summary
-EI integration
 Third deprecated version
 
 ### Bugfixes
