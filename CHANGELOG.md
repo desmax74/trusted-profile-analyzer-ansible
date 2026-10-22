@@ -1,3 +1,8 @@
+## [2.2.8] - 2026-10-30
+
+### Release Summary
+Fix vulnerabilities on libraries
+
 ## [2.2.7] - 2026-09-10
 
 ### Release Summary
